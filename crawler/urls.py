@@ -23,5 +23,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('article/',views.ArticleAPI.as_view()),
     path('articlepic/',views.ArticlePictureAPI.as_view()),
+    path('website/',views.WebsiteAPI.as_view()),
 ]
 urlpatterns = format_suffix_patterns(urlpatterns)
